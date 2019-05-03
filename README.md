@@ -10,7 +10,7 @@ To learn more, visit our [website](http://opentrons.com) or contact us at commun
 
 We're part of the 2019 [Mozilla Open Leaders](https://foundation.mozilla.org/en/opportunity/mozilla-open-leaders/round-7/participants/participants---cohort-c/) cohort, and we'd love to bring more people into our network! If you're interested in the intersection of open science, robots, and community-driven biology, this is the place for you.
 
-Make sure to read and adhere to our [Participation Guidelines](https://github.com/Opentrons/Hack-A-Tron/blob/master/CODE%20OF%20CONDUCT). Also, check out our first [issue](https://github.com/Opentrons/Hack-A-Tron/issues/1) in this repository to learn about ways you can get involved!
+Make sure to read and adhere to our [Participation Guidelines](https://github.com/Opentrons/Hack-A-Tron/blob/master/CODE_OF_CONDUCT). Also, check out our first [issue](https://github.com/Opentrons/Hack-A-Tron/issues/1) in this repository to learn about ways you can get involved!
 
 ### 2019 Participation Information
 🗺 **Location:** Opentrons HQ at [20 Jay St, Suite 528, Brooklyn, NY 11201](https://goo.gl/maps/rQCYLUqPXZSJ33Mk7)
