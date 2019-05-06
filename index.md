@@ -5,7 +5,7 @@
 layout: default
 title: Opentrons Hack-A-Tron
 navigation_weight: 1
-description:
+permalink: /Hack-A-Tron/
 ---
 ## **Welcome to the Opentrons Community!**
 

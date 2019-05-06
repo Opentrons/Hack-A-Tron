@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Participation Guidelines
-permalink: /participation_guidelines
+permalink: participation_guidelines
 navigation_weight: 2
 ---
 

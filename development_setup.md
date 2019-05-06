@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Development Setup
-permalink: /development_setup
+permalink: development_setup
 navigation_weight: 3
-description: Read This Before Contributing
 ---
 
 If you'd like to contribute (or maybe just run the very latest and greatest version of our API), this section details what you need to do to get your computer and local repository set up.
