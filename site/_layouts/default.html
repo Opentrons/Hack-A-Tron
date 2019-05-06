@@ -25,7 +25,7 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <br>
       <div>
-      {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+      {% assign navigation_pages = site.pages | sort: 'navigation_weight' %}
         {% for p in navigation_pages %}
           {% if p.navigation_weight %}
               <a href="{{ p.url }}" class="btn"}>
