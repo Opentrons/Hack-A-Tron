@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Development Setup
-permalink: /development_setup/
+permalink: /development_setup
 navigation_weight: 3
 description: Read This Before Contributing
 ---
