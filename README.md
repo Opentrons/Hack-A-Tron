@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # Hack-A-Tron
 
 Welcome to the Opentrons Community!
