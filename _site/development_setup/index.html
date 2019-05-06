@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Development Setup | Opentrons Hack-A-Tron</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Development Setup" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Read This Before Contributing" />
+<meta property="og:description" content="Read This Before Contributing" />
+<link rel="canonical" href="http://localhost:4000/development_setup/" />
+<meta property="og:url" content="http://localhost:4000/development_setup/" />
+<meta property="og:site_name" content="Opentrons Hack-A-Tron" />
+<script type="application/ld+json">
+{"description":"Read This Before Contributing","url":"http://localhost:4000/development_setup/","@type":"WebPage","headline":"Development Setup","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=6275f32578eeadb25b8cdafa2134394b6a7dc718">
+  </head>
+  <body>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Development Setup</h1>
+      <br>
+      <div>
+      
+        
+          
+              <a href="/" class="btn"}>
+                Opentrons Hack-A-Tron
+              </a>
+          
+      
+          
+              <a href="/participation_guidelines" class="btn"}>
+                Participation Guidelines
+              </a>
+          
+      
+          
+              <a href="/development_setup/" class="btn"}>
+                Development Setup
+              </a>
+          
+      
+      
+        <a href="https://github.com/Opentrons/Hack-A-Tron" class="btn">View on GitHub</a>
+      
+    </div>
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <p>If you’d like to contribute (or maybe just run the very latest and greatest version of our API), this section details what you need to do to get your computer and local repository set up.</p>
+
+<p>Individual projects may have additional instructions, so be sure to check out the various project <code class="highlighter-rouge">README</code>s, too.</p>
+
+<h3 id="environment-and-repository"><strong>Environment and Repository</strong></h3>
+
+<p>Your computer will need the following tools installed to be able to develop with the Opentrons platform:</p>
+
+<ul>
+  <li>
+    <p>macOS 10.11+, Linux, or Windows 10</p>
+
+    <ul>
+      <li>On Windows, please configure Git’s <code class="highlighter-rouge">core.autocrlf</code> setting (see the <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration">Git config docs</a>) to <code class="highlighter-rouge">input</code> so that shell scripts required for the robot’s boot process in <code class="highlighter-rouge">api/opentrons/resources</code> do not have carriage returns inserted
+<br />
+<br /></li>
+    </ul>
+  </li>
+  <li>
+    <p>Python 3.6 (<a href="https://github.com/pyenv/pyenv">pyenv</a> is optional, but recommended for macOS / Linux. If <code class="highlighter-rouge">pyenv</code> is not available for your system or you do not want to use it, you can set the environment variable <code class="highlighter-rouge">OT_PYTHON</code> to the full path to the Python 3.6 executable)</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pyenv install 3.6.4
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Node v8 LTS (Carbon) - <a href="https://github.com/nvm-sh/nvm">nvm</a> is optional, but recommended</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nvm install lts/carbon
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://yarnpkg.com/en/docs/install#mac-stable">yarn</a> - JavaScript package manager</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/commitizen/cz-cli">commitizen</a> - Commit message formatter</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yarn global add commitizen
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>GNU Make - we use <a href="https://en.wikipedia.org/wiki/Makefile">Makefiles</a> to manage our builds</p>
+  </li>
+  <li>
+    <p>cURL - used to push development updates to robots</p>
+  </li>
+</ul>
+
+<p>Once you’re set up, clone the repository and install all project dependencies:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/Opentrons/opentrons.git
+<span class="nb">cd </span>opentrons
+make install
+</code></pre></div></div>
+
+<p>In addition, if (and only if) you want to build a PDF version of the Opentrons API documentation, you must install a latex distribution that includes a callable pdflatex. If that is installed, you can do <code class="highlighter-rouge">make -C api docs-pdf</code>.</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/Opentrons/Hack-A-Tron">Hack-A-Tron</a> is maintained by <a href="https://github.com/Opentrons">Opentrons</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
