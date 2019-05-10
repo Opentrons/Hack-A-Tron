@@ -2,14 +2,14 @@
 layout: default
 title: Development Setup
 permalink: development_setup
-navigation_weight: 3
+navigation_weight: 4
 ---
 
 If you'd like to contribute (or maybe just run the very latest and greatest version of our API), this section details what you need to do to get your computer and local repository set up.
 
 Individual projects may have additional instructions, so be sure to check out the various project `README`s, too.
 
-### **Environment and Repository**
+## **Environment and Repository**
 
 Your computer will need the following tools installed to be able to develop with the Opentrons platform:
 

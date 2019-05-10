@@ -2,7 +2,7 @@
 layout: default
 title: Participation Guidelines
 permalink: participation_guidelines
-navigation_weight: 2
+navigation_weight: 5
 ---
 
 Opentrons, as part of the Mozilla Global Sprint for Internet Health, respects Mozilla's [community participation guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/). These guidelines cover our behavior as participants, mentors, experts, staff, volunteers, and anyone else involved.
@@ -29,5 +29,7 @@ If you believe you‘re experiencing practices which don‘t meet the above poli
 
 We reserve the right to refuse admission and/or remove anyone violating these policies.
 Email: community@opentrons.com
-Last Updated: *05/03/2019*
+
+
+<span style="font-size:14px">Last Updated: *05/03/2019*</span>
 <!--- END HACK-A-TRON PARTICIPATION GUIDLINES --->
